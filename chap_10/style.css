@@ -1,0 +1,62 @@
+.container {
+  text-align: center;
+}
+
+tr {
+  height: 40px;
+  text-align: center;
+}
+
+.tableOne {
+  width: 100%;
+  text-align: center;
+}
+
+.tableTwo {
+  width: 90%;
+  float: left;
+}
+
+.topTD {
+  width: 20px;
+}
+
+.one {
+  background-color: #ff7f50;
+}
+
+.two {
+  background-color: #da70d6;
+}
+
+.three {
+  background-color: #7b68ee;
+}
+
+.four {
+  background-color: #ffd700;
+}
+
+.five {
+  background-color: #2e8b57;
+}
+
+.six {
+  background-color: #a0522d;
+}
+
+.seven {
+  background-color: #fa8072;
+}
+
+.eight {
+  background-color: #daa520;
+}
+
+.nine {
+  background-color: #6495ed;
+}
+
+.ten {
+  background-color: #ffb6c1;
+}
