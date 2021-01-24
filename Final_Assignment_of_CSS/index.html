@@ -4,91 +4,211 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PIAIC CNC HTML CSS Assignments (Final Assignment of CSS)</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Usama Sadiq US - Portfolio</title>
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="assets/vendor/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <!-- Shortcut Icon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/u-letter.png" />
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <!-- header -->
-        <section id="header">
-            <div class="icons_contact_no">
-                <div class="icons"><h1>icons</h1></div>
-                <div class="contact_no"><h1>contact no</h1></div>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#services" onclick="toggleMenu()">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu()">Work</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu()">Testimonial</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br><span>Usama Sadiq.</span></h2>
+            <h3>I'm a Front End Web Developer.</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>I'm a Front End Web Developer.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, perspiciatis laudantium cum aliquam
+                    tenetur molestias quae, corrupti odit ipsa voluptate sequi, ullam debitis eaque officia amet tempore
+                    impedit delectus. Dignissimos excepturi non, ut ipsa deserunt, voluptate dolor animi minima ea
+                    aperiam perspiciatis molestias similique eius iste. Nostrum nisi praesentium voluptatem pariatur
+                    reiciendis ab nemo facilis quod, tenetur voluptatibus excepturi a odit eaque aperiam quam
+                    accusantium tempore quisquam exercitationem asperiores!<br><br>Lorem ipsum dolor sit amet
+                    consectetur, adipisicing elit. Vel eos deleniti ea aut corporis, nemo quam? Repellendus quae animi
+                    aspernatur asperiores porro ad cum ipsam autem veritatis dolore. Libero suscipit perspiciatis
+                    voluptas officia sed quam rerum</p>
             </div>
-            <div class="navbar"><h1>navbar</h1></div>
-        </section>
-        <!-- end header -->
+            <div class="w50">
+                <img src="assets/images/img1.jpg" class="img">
+            </div>
+        </div>
+    </section>
 
-        <!-- slider -->
-        <section id="slider">
-            <h1>slider</h1>
-        </section>
-        <!-- end slider -->
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Our Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="assets/images/icon1.png">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cum sunt aut fugit aliquam officia
+                    labore quod impedit nulla.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="assets/images/icon2.png">
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cum sunt aut fugit aliquam officia
+                    labore quod impedit nulla.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="assets/images/icon3.png">
+                <h2>Android App</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cum sunt aut fugit aliquam officia
+                    labore quod impedit nulla.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="assets/images/icon4.png">
+                <h2>Photography</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cum sunt aut fugit aliquam officia
+                    labore quod impedit nulla.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="assets/images/icon5.png">
+                <h2>Content Writing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cum sunt aut fugit aliquam officia
+                    labore quod impedit nulla.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="assets/images/icon6.png">
+                <h2>Video Editing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cum sunt aut fugit aliquam officia
+                    labore quod impedit nulla.</p>
+            </div>
+        </div>
+    </section>
 
-        <!-- ouradnavtages -->
-        <section id="ouradnavtages">
-            <h1>ouradnavtages</h1>
-        </section>
-        <!-- end ouradnavtages -->
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Our Latest Work</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <img src="assets/images/product1.jpg">
+            </div>
+            <div class="workBx">
+                <img src="assets/images/product2.jpg">
+            </div>
+            <div class="workBx">
+                <img src="assets/images/product3.jpg">
+            </div>
+            <div class="workBx">
+                <img src="assets/images/product4.jpg">
+            </div>
+        </div>
+        <div class="heading">
+            <a href="#" class="btn">View More</a>
+        </div>
+    </section>
 
-        <!-- aboutus -->
-        <section id="aboutus">
-            <h1>aboutus</h1>
-        </section>
-        <!-- end aboutus -->
+    <section class="testimonial" id="testimonial">
+        <div class="heading">
+            <h2>Testimonial</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos fugit numquam architecto distinctio!
+                    Molestiae nihil incidunt suscipit aspernatur omnis impedit debitis exercitationem unde, ipsum harum
+                    alias cumque, totam aperiam explicabo quis tenetur asperiores itaque ratione eligendi.</p>
+                <h3>Someone Famous<br><span>Creative Design</span></h3>
+            </div>
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos fugit numquam architecto distinctio!
+                    Molestiae nihil incidunt suscipit aspernatur omnis impedit debitis exercitationem unde, ipsum harum
+                    alias cumque, totam aperiam explicabo quis tenetur asperiores itaque ratione eligendi.</p>
+                <h3>Someone Famous<br><span>Creative Design</span></h3>
+            </div>
+        </div>
+    </section>
 
-        <!-- ourservices -->
-        <section id="ourservices">
-            <h1>ourservices</h1>
-        </section>
-        <!-- end ourservices -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>4671 Sugar Camp Road, <br>Owatonna,Minnesota,<br>55060</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>507-475-6094</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>wrub7d78i0e@temporary-mail.net</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </section>
 
-        <!-- portfolio -->
-        <section id="portfolio">
-            <h1>portfolio</h1>
-        </section>
-        <!-- end portfolio -->
-
-        <!-- ourprocess -->
-        <section id="ourprocess">
-            <h1>ourprocess</h1>
-        </section>
-        <!-- end ourprocess -->
-
-        <!-- peopleaboutus -->
-        <section id="peopleaboutus">
-            <h1>peopleaboutus</h1>
-        </section>
-        <!-- end peopleaboutus -->
-
-        <!-- ourskills -->
-        <section id="ourskills">
-            <h1>ourskills</h1>
-        </section>
-        <!-- end ourskills -->
-
-        <!-- stayyournewproject -->
-        <section id="stayyournewproject">
-            <h1>stayyournewproject</h1>
-        </section>
-        <!-- end stayyournewproject -->
-
-        <!-- ourcontacts -->
-        <section id="ourcontacts">
-            <h1>ourcontacts</h1>
-        </section>
-        <!-- end ourcontacts -->
-
-        <!-- footer -->
-        <section id="footer">
-            <h1>footer</h1>
-        </section>
-        <!-- end footer -->
+    <div class="copyright">
+        <p>Copyright &copy; 2020 Online Tutorials. All Right Reserved.</p>
     </div>
+
+    <!-- Custom JS -->
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>
